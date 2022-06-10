@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import Button from '../components/atoms/Button';
+import Button, { BUTTON_SIZE, BUTTON_TYPE } from '../components/atoms/Button';
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +10,12 @@ const Home: NextPage = () => {
       <h4>h4</h4>
       <h5>h5</h5>
       <h6>h6</h6>
-      <Button title="New Button" type="button" />
+      <Button
+        title="Button"
+        size={BUTTON_SIZE.md}
+        style={BUTTON_TYPE.primary}
+        type="button"
+      />
     </div>
   );
 };

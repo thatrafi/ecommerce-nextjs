@@ -2,9 +2,32 @@
 
 .button {
   border-radius: 5px;
-  background-color: $color-primary;
-  height: 50px;
-  width: 100px;
   border: none;
   color: $color-light-background;
+}
+
+.primary {
+  background-color: $color-primary;
+  color: $color-light-background;
+}
+
+.secondary {
+  background-color: transparent;
+  color: $color-primary;
+  border: 1.5px solid $color-primary;
+}
+
+.sm {
+  height: 42px;
+  width: 92px;
+}
+
+.md {
+  height: 52px;
+  width: 132px;
+}
+
+.lg {
+  height: 62px;
+  width: 168px;
 }
